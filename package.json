@@ -20,6 +20,7 @@
   "build": {
     "appId": "com.assistencialize.multizap",
     "productName": "Multi-Zap",
+    "icon": "build/icon.png",
     "directories": {
       "output": "release"
     },
@@ -36,7 +37,7 @@
       "package.json"
     ],
     "win": {
-      "icon": "build/icon.ico",
+      "icon": "build/icon.png",
       "target": [
         {
           "target": "nsis",
@@ -93,7 +94,7 @@
     "@vitejs/plugin-react": "^6.0.1",
     "concurrently": "^9.2.1",
     "cross-env": "^10.1.0",
-    "electron": "^41.3.0",
+    "electron": "^34.0.0",
     "electron-builder": "^26.8.1",
     "eslint": "^10.2.1",
     "eslint-plugin-react-hooks": "^7.1.1",
