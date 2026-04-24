@@ -1,0 +1,31 @@
+
+> multi-zap@1.0.0 electron:build
+> vite build && electron-builder
+
+[36mvite v8.0.10 [32mbuilding client environment for production...[36m[39m
+[2Ktransforming...✓ 59 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.14 kB │ gzip:   0.53 kB
+dist/assets/index-Cvha36TZ.css   15.41 kB │ gzip:   3.34 kB
+dist/assets/index-CcCoz9La.js   391.36 kB │ gzip: 112.26 kB
+
+[32m✓ built in 383ms[39m
+  • electron-builder  version=26.8.1 os=10.0.19045
+  • loaded configuration  file=package.json ("build" field)
+  • description is missed in the package.json  appPackageFile=C:\Users\allan\Documents\Micro-SaaS\assistencialize\multi-zap\package.json
+  • author is missed in the package.json  appPackageFile=C:\Users\allan\Documents\Micro-SaaS\assistencialize\multi-zap\package.json
+  • executing @electron/rebuild  electronVersion=41.3.0 arch=x64 buildFromSource=false workspaceRoot=C:\Users\allan\Documents\Micro-SaaS\assistencialize\multi-zap projectDir=./ appDir=./
+  • installing native dependencies  arch=x64
+  • completed installing native dependencies
+  • packaging       platform=win32 arch=x64 electron=41.3.0 appOutDir=release\win-unpacked
+  • searching for node modules  pm=npm searchDir=C:\Users\allan\Documents\Micro-SaaS\assistencialize\multi-zap
+(node:23396) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+  • updating asar integrity executable resource  executablePath=release\win-unpacked\Multi-Zap.exe
+  • signing with signtool.exe  path=release\win-unpacked\Multi-Zap.exe
+  • building        target=nsis file=release\Multi-Zap Setup 1.0.0.exe archs=x64 oneClick=false perMachine=false
+  • signing with signtool.exe  path=release\win-unpacked\resources\elevate.exe
+  • signing with signtool.exe  path=release\Multi-Zap Setup 1.0.0.__uninstaller.exe
+  • signing with signtool.exe  path=release\Multi-Zap Setup 1.0.0.exe
+  • building block map  blockMapFile=release\Multi-Zap Setup 1.0.0.exe.blockmap
