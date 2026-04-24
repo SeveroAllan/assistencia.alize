@@ -56,7 +56,7 @@
       "runAfterFinish": true
     },
     "mac": {
-      "icon": "build/icon.icns",
+      "icon": "build/icon.png",
       "category": "public.app-category.productivity",
       "target": [
         "dmg",

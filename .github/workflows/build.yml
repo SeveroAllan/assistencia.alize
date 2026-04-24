@@ -20,14 +20,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
 
       - name: Install Dependencies
         run: npm install
 
       - name: Build Application
-        run: npm run electron:build
+        run: npm run electron:build -- --publish always
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # No macOS, para assinar o app, você precisaria de certificados da Apple
